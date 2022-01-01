@@ -32,6 +32,10 @@
 		13C3B4EE277F0A3B0057CA0A /* OnboardingDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C3B4EB277F0A3B0057CA0A /* OnboardingDataModel.swift */; };
 		13C3B4EF277F0A3B0057CA0A /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C3B4EC277F0A3B0057CA0A /* OnboardingView.swift */; };
 		13C3B4F0277F0A3B0057CA0A /* OnboardingStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C3B4ED277F0A3B0057CA0A /* OnboardingStepView.swift */; };
+		13C3B4F827810B550057CA0A /* ShitCounterUnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C3B4F727810B550057CA0A /* ShitCounterUnitTest.swift */; };
+		13C3B50027810BD30057CA0A /* StartupViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C3B4FF27810BD30057CA0A /* StartupViewModelTests.swift */; };
+		13C3B50827810E340057CA0A /* ShitCounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C3B50727810E340057CA0A /* ShitCounterUITests.swift */; };
+		13C3B50A27810E340057CA0A /* ShitCounterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C3B50927810E340057CA0A /* ShitCounterUITestsLaunchTests.swift */; };
 		13DC617C2776F34A003BCA15 /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC617B2776F34A003BCA15 /* CalendarViewModel.swift */; };
 		13DC617F2776FD20003BCA15 /* ShitNote +CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC617D2776FD20003BCA15 /* ShitNote +CoreDataProperties.swift */; };
 		13DC61802776FD20003BCA15 /* ShitNote+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC617E2776FD20003BCA15 /* ShitNote+CoreDataClass.swift */; };
@@ -61,6 +65,23 @@
 		13E7B9BB276EEFF800F3996F /* ShitConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E7B9BA276EEFF800F3996F /* ShitConfigView.swift */; };
 		13E7B9BD276EF00800F3996F /* ShitConfigViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E7B9BC276EF00800F3996F /* ShitConfigViewModel.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13C3B4F927810B550057CA0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8418938C24E523B000FE7B85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8418939324E523B000FE7B85;
+			remoteInfo = ShitCounter;
+		};
+		13C3B50B27810E340057CA0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8418938C24E523B000FE7B85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8418939324E523B000FE7B85;
+			remoteInfo = ShitCounter;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		13DC61DA277C1BCB003BCA15 /* Embed Watch Content */ = {
@@ -103,6 +124,12 @@
 		13C3B4EB277F0A3B0057CA0A /* OnboardingDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingDataModel.swift; sourceTree = "<group>"; };
 		13C3B4EC277F0A3B0057CA0A /* OnboardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		13C3B4ED277F0A3B0057CA0A /* OnboardingStepView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingStepView.swift; sourceTree = "<group>"; };
+		13C3B4F527810B550057CA0A /* ShitCounterUnitTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShitCounterUnitTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13C3B4F727810B550057CA0A /* ShitCounterUnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShitCounterUnitTest.swift; sourceTree = "<group>"; };
+		13C3B4FF27810BD30057CA0A /* StartupViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupViewModelTests.swift; sourceTree = "<group>"; };
+		13C3B50527810E340057CA0A /* ShitCounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShitCounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13C3B50727810E340057CA0A /* ShitCounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShitCounterUITests.swift; sourceTree = "<group>"; };
+		13C3B50927810E340057CA0A /* ShitCounterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShitCounterUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		13DC617B2776F34A003BCA15 /* CalendarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewModel.swift; sourceTree = "<group>"; };
 		13DC617D2776FD20003BCA15 /* ShitNote +CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ShitNote +CoreDataProperties.swift"; sourceTree = "<group>"; };
 		13DC617E2776FD20003BCA15 /* ShitNote+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ShitNote+CoreDataClass.swift"; sourceTree = "<group>"; };
@@ -135,6 +162,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		13C3B4F227810B550057CA0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13C3B50227810E340057CA0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8418939124E523B000FE7B85 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -335,6 +376,32 @@
 			path = Onboarding;
 			sourceTree = "<group>";
 		};
+		13C3B4F627810B550057CA0A /* ShitCounterUnitTest */ = {
+			isa = PBXGroup;
+			children = (
+				13C3B4FE27810BAD0057CA0A /* Startup */,
+				13C3B4F727810B550057CA0A /* ShitCounterUnitTest.swift */,
+			);
+			path = ShitCounterUnitTest;
+			sourceTree = "<group>";
+		};
+		13C3B4FE27810BAD0057CA0A /* Startup */ = {
+			isa = PBXGroup;
+			children = (
+				13C3B4FF27810BD30057CA0A /* StartupViewModelTests.swift */,
+			);
+			path = Startup;
+			sourceTree = "<group>";
+		};
+		13C3B50627810E340057CA0A /* ShitCounterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				13C3B50727810E340057CA0A /* ShitCounterUITests.swift */,
+				13C3B50927810E340057CA0A /* ShitCounterUITestsLaunchTests.swift */,
+			);
+			path = ShitCounterUITests;
+			sourceTree = "<group>";
+		};
 		13DC618127785C5D003BCA15 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -412,6 +479,8 @@
 			isa = PBXGroup;
 			children = (
 				13110ED7276EA60400CEB632 /* ShitCounter */,
+				13C3B4F627810B550057CA0A /* ShitCounterUnitTest */,
+				13C3B50627810E340057CA0A /* ShitCounterUITests */,
 				8418939524E523B000FE7B85 /* Products */,
 				13C3B4DC277C41720057CA0A /* Frameworks */,
 			);
@@ -421,6 +490,8 @@
 			isa = PBXGroup;
 			children = (
 				8418939424E523B000FE7B85 /* ShitCounter.app */,
+				13C3B4F527810B550057CA0A /* ShitCounterUnitTest.xctest */,
+				13C3B50527810E340057CA0A /* ShitCounterUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -428,6 +499,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		13C3B4F427810B550057CA0A /* ShitCounterUnitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13C3B4FD27810B550057CA0A /* Build configuration list for PBXNativeTarget "ShitCounterUnitTest" */;
+			buildPhases = (
+				13C3B4F127810B550057CA0A /* Sources */,
+				13C3B4F227810B550057CA0A /* Frameworks */,
+				13C3B4F327810B550057CA0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13C3B4FA27810B550057CA0A /* PBXTargetDependency */,
+			);
+			name = ShitCounterUnitTest;
+			productName = ShitCounterUnitTest;
+			productReference = 13C3B4F527810B550057CA0A /* ShitCounterUnitTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13C3B50427810E340057CA0A /* ShitCounterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13C3B50D27810E340057CA0A /* Build configuration list for PBXNativeTarget "ShitCounterUITests" */;
+			buildPhases = (
+				13C3B50127810E340057CA0A /* Sources */,
+				13C3B50227810E340057CA0A /* Frameworks */,
+				13C3B50327810E340057CA0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13C3B50C27810E340057CA0A /* PBXTargetDependency */,
+			);
+			name = ShitCounterUITests;
+			productName = ShitCounterUITests;
+			productReference = 13C3B50527810E340057CA0A /* ShitCounterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		8418939324E523B000FE7B85 /* ShitCounter */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 841893A324E523B100FE7B85 /* Build configuration list for PBXNativeTarget "ShitCounter" */;
@@ -457,6 +564,14 @@
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
+					13C3B4F427810B550057CA0A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8418939324E523B000FE7B85;
+					};
+					13C3B50427810E340057CA0A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8418939324E523B000FE7B85;
+					};
 					8418939324E523B000FE7B85 = {
 						CreatedOnToolsVersion = 12.0;
 					};
@@ -478,11 +593,27 @@
 			projectRoot = "";
 			targets = (
 				8418939324E523B000FE7B85 /* ShitCounter */,
+				13C3B4F427810B550057CA0A /* ShitCounterUnitTest */,
+				13C3B50427810E340057CA0A /* ShitCounterUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		13C3B4F327810B550057CA0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13C3B50327810E340057CA0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8418939224E523B000FE7B85 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -494,6 +625,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		13C3B4F127810B550057CA0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13C3B50027810BD30057CA0A /* StartupViewModelTests.swift in Sources */,
+				13C3B4F827810B550057CA0A /* ShitCounterUnitTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13C3B50127810E340057CA0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13C3B50827810E340057CA0A /* ShitCounterUITests.swift in Sources */,
+				13C3B50A27810E340057CA0A /* ShitCounterUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8418939024E523B000FE7B85 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -553,7 +702,94 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		13C3B4FA27810B550057CA0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8418939324E523B000FE7B85 /* ShitCounter */;
+			targetProxy = 13C3B4F927810B550057CA0A /* PBXContainerItemProxy */;
+		};
+		13C3B50C27810E340057CA0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8418939324E523B000FE7B85 /* ShitCounter */;
+			targetProxy = 13C3B50B27810E340057CA0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		13C3B4FB27810B550057CA0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dipesh.ShitCounterUnitTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShitCounter.app/ShitCounter";
+			};
+			name = Debug;
+		};
+		13C3B4FC27810B550057CA0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dipesh.ShitCounterUnitTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShitCounter.app/ShitCounter";
+			};
+			name = Release;
+		};
+		13C3B50E27810E340057CA0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dipesh.ShitCounterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShitCounter;
+			};
+			name = Debug;
+		};
+		13C3B50F27810E340057CA0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dipesh.ShitCounterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShitCounter;
+			};
+			name = Release;
+		};
 		841893A124E523B100FE7B85 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -679,7 +915,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2X8Z2D5EWJ;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = ShitCounter/Info.plist;
+				INFOPLIST_FILE = ShitCounter/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -701,7 +937,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2X8Z2D5EWJ;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = ShitCounter/Info.plist;
+				INFOPLIST_FILE = ShitCounter/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -717,6 +953,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		13C3B4FD27810B550057CA0A /* Build configuration list for PBXNativeTarget "ShitCounterUnitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13C3B4FB27810B550057CA0A /* Debug */,
+				13C3B4FC27810B550057CA0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13C3B50D27810E340057CA0A /* Build configuration list for PBXNativeTarget "ShitCounterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13C3B50E27810E340057CA0A /* Debug */,
+				13C3B50F27810E340057CA0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8418938F24E523B000FE7B85 /* Build configuration list for PBXProject "ShitCounter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -28,6 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "13C3B4F427810B550057CA0A"
+               BuildableName = "ShitCounterUnitTest.xctest"
+               BlueprintName = "ShitCounterUnitTest"
+               ReferencedContainer = "container:ShitCounter.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "13C3B50427810E340057CA0A"
+               BuildableName = "ShitCounterUITests.xctest"
+               BlueprintName = "ShitCounterUITests"
+               ReferencedContainer = "container:ShitCounter.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

@@ -53,7 +53,6 @@ struct ShitPeriodView: View {
                 .foregroundColor(period.color)
                 .scaledToFill()
                 .frame(width: 60, height: 60, alignment: .center)
-                .shadow(color: period.color.opacity(0.5), radius: 10, x: 4, y: 24)
             
             Text(period.value == -1 ? "?" : "\(period.value)")
                 .foregroundColor(Color.text)
